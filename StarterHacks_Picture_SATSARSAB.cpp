@@ -2,7 +2,7 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
 #include <fstream>
-#include<string>
+#include <string>
 #include <ctime> 
 
 using namespace cv;
@@ -12,7 +12,7 @@ bool takePicture() {
 	VideoCapture cap(0);
 	if (!cap.isOpened()) return false;
 	/*
-	---Takes Picture---
+	   ---Takes Picture---
 	*/
 	Mat frame; //Creates image container
 	for (int i = 0; i < 20; i++) {
@@ -29,6 +29,7 @@ bool takePicture() {
 	cap.release();
 	return true;
 }
+
 bool checksSignal() {
 	std::string filename = "C:\\Users\\Major League Hacking\\Desktop\\signal.txt";
 	std::ifstream checkFile;
