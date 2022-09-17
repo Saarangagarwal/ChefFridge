@@ -10,8 +10,7 @@
  - GND connection of the sensor attached to ground of arduino
  - TRIG connection of the sensor attached to digital pin 7 of arduino
   - ECHO connection of the sensor attached to digital pin 6 of arduino
-  created 18 Jan 2020
-  by Saarang Agarwal, Satavanan and Sabeeh
+  Created by Saarang Agarwal, Satavanan and Sabeeh
 */
 
 const int pingPin = 6; //pin number of the sensor's output
